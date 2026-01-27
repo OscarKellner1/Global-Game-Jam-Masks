@@ -106,7 +106,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Mask1",
+                    "name": "MaskA",
                     "type": "Button",
                     "id": "04b67507-830d-4b04-9acd-a6d77084ffee",
                     "expectedControlType": "",
@@ -115,7 +115,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Mask2",
+                    "name": "MaskB",
                     "type": "Button",
                     "id": "1cd3e2de-237d-42e9-b1cf-0d3abcf567b7",
                     "expectedControlType": "",
@@ -124,7 +124,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Mask3",
+                    "name": "MaskC",
                     "type": "Button",
                     "id": "269066ac-0cd4-4221-a4b4-66273ce0b744",
                     "expectedControlType": "",
@@ -133,7 +133,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Mask4",
+                    "name": "MaskD",
                     "type": "Button",
                     "id": "7c5877c1-e9e2-49d8-beb5-c2ee1a34f13e",
                     "expectedControlType": "",
@@ -403,7 +403,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Mask2",
+                    "action": "MaskB",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -414,7 +414,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Mask3",
+                    "action": "MaskC",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -425,7 +425,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Mask4",
+                    "action": "MaskD",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -436,7 +436,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Mask1",
+                    "action": "MaskA",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

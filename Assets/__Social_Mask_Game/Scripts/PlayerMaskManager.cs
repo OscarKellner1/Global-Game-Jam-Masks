@@ -1,8 +1,11 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerMaskManager : MonoBehaviour
 {
     public int maskType;
+    public float emotionalHealth;
+    public UnityEvent onTakeDamage;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -34,5 +37,11 @@ public class PlayerMaskManager : MonoBehaviour
     void OnMaskD()
     {
         maskType = 3;
+    }
+
+    public void TakeDamage(float dmg)
+    {
+        emotionalHealth -= dmg;
+        onTakeDamage.Invoke();
     }
 }
