@@ -30,7 +30,7 @@ public class PlayerMaskAttacker : MonoBehaviour
         {
             if(myReactor.subject != null)
             {
-                myReactor.subject.emotionalHealth -= ed;
+                myReactor.subject.TakeDamage(ed);
             }
         }
     }
