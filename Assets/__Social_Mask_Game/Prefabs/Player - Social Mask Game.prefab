@@ -2273,6 +2273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMaskManager
   maskType: 0
+  emotionalHealth: 100
 --- !u!1 &5431965503849345938
 GameObject:
   m_ObjectHideFlags: 0
