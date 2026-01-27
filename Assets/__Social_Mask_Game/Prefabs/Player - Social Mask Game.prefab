@@ -1979,6 +1979,7 @@ GameObject:
   - component: {fileID: 1618668129699948205}
   - component: {fileID: 5155795417585919095}
   - component: {fileID: 4345564083805631784}
+  - component: {fileID: 3183283374971491635}
   m_Layer: 8
   m_Name: Player - Social Mask Game
   m_TagString: Player
@@ -2110,7 +2111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: ff88ae104976c0c49af1766916aeacda, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: 7a406834eaa3bac4b98e55b3036311c2, type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -2259,6 +2260,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myController: {fileID: 0}
+--- !u!114 &3183283374971491635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5185868779667603224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d489544b0e0c8e4469e29391caae976e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMaskManager
+  maskType: 0
 --- !u!1 &5431965503849345938
 GameObject:
   m_ObjectHideFlags: 0
