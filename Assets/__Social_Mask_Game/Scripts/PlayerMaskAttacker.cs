@@ -16,7 +16,6 @@ public class PlayerMaskAttacker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
     }
 
     public void Attack()
@@ -30,7 +29,18 @@ public class PlayerMaskAttacker : MonoBehaviour
         {
             if(myReactor.subject != null)
             {
-                myReactor.subject.TakeDamage(ed);
+                myReactor.subject.TakeDamageOneshot(ed);
+            }
+        }
+    }
+
+    public void AttackDrain(float ed)
+    {
+        if (myReactor != null)
+        {
+            if (myReactor.subject != null)
+            {
+                myReactor.subject.DrainDamage(ed);
             }
         }
     }

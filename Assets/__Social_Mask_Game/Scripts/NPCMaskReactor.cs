@@ -57,9 +57,10 @@ public class NPCMaskReactor : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
+        onExit.Invoke();
+
         subject = null;
         onMaskFlag = false;
-        onExit.Invoke();
     }
 
     public void WalkToSubject()
