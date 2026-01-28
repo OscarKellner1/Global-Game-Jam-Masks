@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tpose f2_0
+      name: f2 front
       rect:
         serializedVersion: 2
         x: 47
@@ -1336,7 +1336,7 @@ TextureImporter:
         'boneIndex[2]': 0
         'boneIndex[3]': 0
     - serializedVersion: 2
-      name: tpose f2_1
+      name: f2 side
       rect:
         serializedVersion: 2
         x: 807
@@ -2497,8 +2497,8 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      tpose f2_0: 2082063380
-      tpose f2_1: 64606137
+      f2 front: 2082063380
+      f2 side: 64606137
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
