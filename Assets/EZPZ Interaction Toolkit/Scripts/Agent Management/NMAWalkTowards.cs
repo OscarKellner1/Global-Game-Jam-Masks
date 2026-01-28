@@ -116,4 +116,10 @@ public class NMAWalkTowards : MonoBehaviour
             }
         }
     }
+
+    public void Stop()
+    {
+        myNma.destination = transform.position;
+        destination = null;
+    }
 }
