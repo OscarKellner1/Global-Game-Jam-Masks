@@ -241,6 +241,54 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1637873070929991063, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637873070929991063, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637873070929991063, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637873070929991063, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818844001019614522, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818844001019614522, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818844001019614522, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818844001019614522, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986477199579220682, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986477199579220682, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986477199579220682, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986477199579220682, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6726382630218646183, guid: 408192fa5e93a4c429ed971717986926, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -324,6 +372,22 @@ PrefabInstance:
     - target: {fileID: 6905926236461839397, guid: 408192fa5e93a4c429ed971717986926, type: 3}
       propertyPath: m_Name
       value: Player Face Selection UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 8606205254415973558, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8606205254415973558, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8606205254415973558, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8606205254415973558, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -625,6 +689,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1822970107 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1751241923685106649, guid: 7d82af0f2571dcf41b4f6909e38bb7c4, type: 3}
+  m_PrefabInstance: {fileID: 5169669705077859629}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68d92bc386e62d547b1c396df61103ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2068689526
 GameObject:
   m_ObjectHideFlags: 0
@@ -855,6 +930,34 @@ PrefabInstance:
     - target: {fileID: 4950714901753323208, guid: 7d82af0f2571dcf41b4f6909e38bb7c4, type: 3}
       propertyPath: m_Name
       value: NPC - Attack On Anger
+      objectReference: {fileID: 0}
+    - target: {fileID: 6311898384231860252, guid: 7d82af0f2571dcf41b4f6909e38bb7c4, type: 3}
+      propertyPath: onMaskA.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6311898384231860252, guid: 7d82af0f2571dcf41b4f6909e38bb7c4, type: 3}
+      propertyPath: onMaskA.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6311898384231860252, guid: 7d82af0f2571dcf41b4f6909e38bb7c4, type: 3}
+      propertyPath: onMaskA.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1822970107}
+    - target: {fileID: 6311898384231860252, guid: 7d82af0f2571dcf41b4f6909e38bb7c4, type: 3}
+      propertyPath: onMaskA.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6311898384231860252, guid: 7d82af0f2571dcf41b4f6909e38bb7c4, type: 3}
+      propertyPath: onMaskA.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Stop
+      objectReference: {fileID: 0}
+    - target: {fileID: 6311898384231860252, guid: 7d82af0f2571dcf41b4f6909e38bb7c4, type: 3}
+      propertyPath: onMaskA.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: NMAWalkTowards, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6311898384231860252, guid: 7d82af0f2571dcf41b4f6909e38bb7c4, type: 3}
+      propertyPath: onMaskA.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8186011452334077131, guid: 7d82af0f2571dcf41b4f6909e38bb7c4, type: 3}
       propertyPath: m_LocalPosition.x
