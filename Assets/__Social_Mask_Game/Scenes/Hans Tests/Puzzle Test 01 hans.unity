@@ -1316,8 +1316,8 @@ RectTransform:
   m_Children:
   - {fileID: 1365378606}
   - {fileID: 1057082560}
-  - {fileID: 133466947}
   - {fileID: 815642247}
+  - {fileID: 133466947}
   m_Father: {fileID: 359030127}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
@@ -1440,13 +1440,13 @@ MonoBehaviour:
   maskButtons:
   - {fileID: 1365378607}
   - {fileID: 1057082561}
-  - {fileID: 133466948}
   - {fileID: 815642248}
+  - {fileID: 133466948}
   outlines:
   - {fileID: 969950599}
   - {fileID: 1887659190}
-  - {fileID: 849863749}
   - {fileID: 177919326}
+  - {fileID: 849863749}
 --- !u!1 &1887659190
 GameObject:
   m_ObjectHideFlags: 0
