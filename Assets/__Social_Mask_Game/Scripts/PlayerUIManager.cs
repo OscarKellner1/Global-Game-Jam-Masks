@@ -1,11 +1,14 @@
 using UnityEngine;
+using UnityEngine.Events;
 using TMPro;
 
-public class PlayerEmotionalHealthDisplay : MonoBehaviour
+public class PlayerUIManager : MonoBehaviour
 {
     public PlayerMaskManager myPlayerManager;
     public TextMeshProUGUI tmpTexDisplay;
     public string prefix = "Emo.Health: ";
+
+    public UnityEvent onDamage;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

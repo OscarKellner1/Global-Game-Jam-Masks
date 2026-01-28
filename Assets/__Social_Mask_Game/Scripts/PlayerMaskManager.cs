@@ -6,11 +6,13 @@ public class PlayerMaskManager : MonoBehaviour
     public int maskType;
     public float emotionalHealth;
     public UnityEvent onTakeDamage;
+    [Header("System Stuff")]
+    public PlayerUIManager myUIManager;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        myUIManager = GameObject.FindFirstObjectByType<PlayerUIManager>();
     }
 
     // Update is called once per frame
@@ -43,5 +45,6 @@ public class PlayerMaskManager : MonoBehaviour
     {
         emotionalHealth -= dmg;
         onTakeDamage.Invoke();
+        myUIManager.onDamage.Invoke();
     }
 }
