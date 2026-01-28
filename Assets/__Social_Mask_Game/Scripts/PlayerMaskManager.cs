@@ -1,19 +1,30 @@
+using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerMaskManager : MonoBehaviour
 {
     public int maskType;
+    public float emotionalHealth;
+    public UnityEvent onTakeDamage;
+    [Header("System Stuff")]
+    public PlayerUIManager myUIManager;
+
+    public float drainDamage;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        myUIManager = GameObject.FindFirstObjectByType<PlayerUIManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(drainDamage > 0)
+        {
+            emotionalHealth -= drainDamage * Time.deltaTime;
+        }
     }
 
     void OnMaskA()
@@ -34,5 +45,17 @@ public class PlayerMaskManager : MonoBehaviour
     void OnMaskD()
     {
         maskType = 3;
+    }
+
+    public void TakeDamageOneshot(float dmg)
+    {
+        emotionalHealth -= dmg;
+        onTakeDamage.Invoke();
+        myUIManager.onDamage.Invoke();
+    }
+
+    public void DrainDamage(float dmg)
+    {
+        drainDamage = dmg;
     }
 }
