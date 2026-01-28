@@ -20,6 +20,7 @@ public class PlayerUIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        tmpTexDisplay.text = prefix + myPlayerManager.emotionalHealth.ToString();
+        if(tmpTexDisplay != null)
+            tmpTexDisplay.text = prefix + myPlayerManager.emotionalHealth.ToString();
     }
 }
