@@ -477,10 +477,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Face Selection UI
       objectReference: {fileID: 0}
-    - target: {fileID: 6905926236461839397, guid: 408192fa5e93a4c429ed971717986926, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8606205254415973558, guid: 408192fa5e93a4c429ed971717986926, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -902,6 +898,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2071640286314302779, guid: 6ef3e91aa927d6346987f4937a7bf096, type: 3}
+      propertyPath: m_Color.b
+      value: 0.015686275
+      objectReference: {fileID: 0}
+    - target: {fileID: 2071640286314302779, guid: 6ef3e91aa927d6346987f4937a7bf096, type: 3}
+      propertyPath: m_Color.g
+      value: 0.92156863
+      objectReference: {fileID: 0}
+    - target: {fileID: 2071640286314302779, guid: 6ef3e91aa927d6346987f4937a7bf096, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3542686698613076072, guid: 6ef3e91aa927d6346987f4937a7bf096, type: 3}
       propertyPath: m_Name
       value: NPC - Happy Variant
@@ -1084,6 +1092,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 289585224487983723, guid: c5a69f8f213849041aaaadd82979a6f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2071640286314302779, guid: c5a69f8f213849041aaaadd82979a6f0, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2071640286314302779, guid: c5a69f8f213849041aaaadd82979a6f0, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2071640286314302779, guid: c5a69f8f213849041aaaadd82979a6f0, type: 3}
+      propertyPath: m_Color.r
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3542686698613076072, guid: c5a69f8f213849041aaaadd82979a6f0, type: 3}
@@ -1417,6 +1437,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC - Angry Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 7575529476802421659, guid: fb5576200dd32d04a83ead8cc7297a39, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7575529476802421659, guid: fb5576200dd32d04a83ead8cc7297a39, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7575529476802421659, guid: fb5576200dd32d04a83ead8cc7297a39, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8186011452334077131, guid: fb5576200dd32d04a83ead8cc7297a39, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.95321
@@ -1735,18 +1767,6 @@ PrefabInstance:
     - target: {fileID: 4421593565393320685, guid: 4e613ddf5f376f044b802f8f0f5410be, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9036775051960454120, guid: 4e613ddf5f376f044b802f8f0f5410be, type: 3}
-      propertyPath: m_Color.b
-      value: 0.2740594
-      objectReference: {fileID: 0}
-    - target: {fileID: 9036775051960454120, guid: 4e613ddf5f376f044b802f8f0f5410be, type: 3}
-      propertyPath: m_Color.g
-      value: 0.93710685
-      objectReference: {fileID: 0}
-    - target: {fileID: 9036775051960454120, guid: 4e613ddf5f376f044b802f8f0f5410be, type: 3}
-      propertyPath: m_Color.r
-      value: 0.2986146
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
