@@ -6,6 +6,7 @@ public class PlayerMaskAttacker : MonoBehaviour
     public NPCMaskReactor myReactor;
     public float emotionalDamage;
     public UnityEvent onAttack;
+    public NPCBillboardManager myBillboardManager;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -31,6 +32,11 @@ public class PlayerMaskAttacker : MonoBehaviour
             {
                 myReactor.subject.TakeDamageOneshot(ed);
             }
+        }
+
+        if(myBillboardManager != null)
+        {
+            myBillboardManager.activeAnimator.SetTrigger("attack");
         }
     }
 

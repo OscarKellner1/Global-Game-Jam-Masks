@@ -1,11 +1,13 @@
 using UnityEngine;
 
+[ExecuteInEditMode]
 public class NPCFaceColourSync : MonoBehaviour
 {
     public NPCManager myNPCManager;
     public SpriteRenderer myRenderer;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+    
     void Start()
     {
         if (myNPCManager == null)
