@@ -1535,33 +1535,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3580144993919698382, guid: fb5576200dd32d04a83ead8cc7297a39, type: 3}
-      propertyPath: m_Color.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580144993919698382, guid: fb5576200dd32d04a83ead8cc7297a39, type: 3}
-      propertyPath: m_Color.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580144993919698382, guid: fb5576200dd32d04a83ead8cc7297a39, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4950714901753323208, guid: fb5576200dd32d04a83ead8cc7297a39, type: 3}
       propertyPath: m_Name
       value: NPC - Angry Variant
-      objectReference: {fileID: 0}
-    - target: {fileID: 7575529476802421659, guid: fb5576200dd32d04a83ead8cc7297a39, type: 3}
-      propertyPath: m_Color.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7575529476802421659, guid: fb5576200dd32d04a83ead8cc7297a39, type: 3}
-      propertyPath: m_Color.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7575529476802421659, guid: fb5576200dd32d04a83ead8cc7297a39, type: 3}
-      propertyPath: m_Color.r
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8186011452334077131, guid: fb5576200dd32d04a83ead8cc7297a39, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1611,6 +1587,67 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: fb5576200dd32d04a83ead8cc7297a39, type: 3}
+--- !u!1001 &289954397906528579
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3129445585913184241, guid: 52ddea7c3033bf343b0c5a5064bb7035, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129445585913184241, guid: 52ddea7c3033bf343b0c5a5064bb7035, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.6639547
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129445585913184241, guid: 52ddea7c3033bf343b0c5a5064bb7035, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129445585913184241, guid: 52ddea7c3033bf343b0c5a5064bb7035, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129445585913184241, guid: 52ddea7c3033bf343b0c5a5064bb7035, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129445585913184241, guid: 52ddea7c3033bf343b0c5a5064bb7035, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129445585913184241, guid: 52ddea7c3033bf343b0c5a5064bb7035, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129445585913184241, guid: 52ddea7c3033bf343b0c5a5064bb7035, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129445585913184241, guid: 52ddea7c3033bf343b0c5a5064bb7035, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129445585913184241, guid: 52ddea7c3033bf343b0c5a5064bb7035, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7239496793340447696, guid: 52ddea7c3033bf343b0c5a5064bb7035, type: 3}
+      propertyPath: m_Name
+      value: Player - Social Mask Game - Debug View
+      objectReference: {fileID: 0}
+    - target: {fileID: 7239496793340447696, guid: 52ddea7c3033bf343b0c5a5064bb7035, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 52ddea7c3033bf343b0c5a5064bb7035, type: 3}
 --- !u!1001 &3302763599009489342
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1890,63 +1927,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 4e613ddf5f376f044b802f8f0f5410be, type: 3}
---- !u!1001 &5820810343355393104
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3651150676516561043, guid: 511d1101e82fee543be532e1a4a44f41, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 9.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 3651150676516561043, guid: 511d1101e82fee543be532e1a4a44f41, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.6639547
-      objectReference: {fileID: 0}
-    - target: {fileID: 3651150676516561043, guid: 511d1101e82fee543be532e1a4a44f41, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 10.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3651150676516561043, guid: 511d1101e82fee543be532e1a4a44f41, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3651150676516561043, guid: 511d1101e82fee543be532e1a4a44f41, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3651150676516561043, guid: 511d1101e82fee543be532e1a4a44f41, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3651150676516561043, guid: 511d1101e82fee543be532e1a4a44f41, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3651150676516561043, guid: 511d1101e82fee543be532e1a4a44f41, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3651150676516561043, guid: 511d1101e82fee543be532e1a4a44f41, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 3651150676516561043, guid: 511d1101e82fee543be532e1a4a44f41, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5185868779667603224, guid: 511d1101e82fee543be532e1a4a44f41, type: 3}
-      propertyPath: m_Name
-      value: Player - Social Mask Game
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 511d1101e82fee543be532e1a4a44f41, type: 3}
 --- !u!1001 &7457159945624359001
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2286,7 +2266,7 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 5820810343355393104}
+  - {fileID: 289954397906528579}
   - {fileID: 434491354}
   - {fileID: 8763594785273619767}
   - {fileID: 1129437298}
