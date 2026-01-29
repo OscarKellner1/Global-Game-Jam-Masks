@@ -142,6 +142,7 @@ MonoBehaviour:
   faceColour: {r: 0.2986146, g: 0.93710685, b: 0.2740594, a: 1}
   billboardSelector: {fileID: 442176718507591255}
   myBillboardManager: {fileID: 0}
+  myPlayerAttacker: {fileID: 780813699598501994}
 --- !u!114 &6092104349403106815
 MonoBehaviour:
   m_ObjectHideFlags: 0
