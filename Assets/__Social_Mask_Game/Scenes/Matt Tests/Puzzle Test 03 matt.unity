@@ -281,6 +281,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPCBillboardManager
   playerTag: Player
   playerTransform: {fileID: 0}
+  angle2Player: 0
+  npcRootTransform: {fileID: 5220245476012348608}
+  billboardRoot: {fileID: 185990624}
+  frontOnSprite: {fileID: 0}
+  sideLeftSprite: {fileID: 0}
+  sideRightSprite: {fileID: 0}
+  backSprite: {fileID: 0}
 --- !u!1001 &434491354
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -463,23 +470,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6217242641949606152, guid: 408192fa5e93a4c429ed971717986926, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6217242641949606152, guid: 408192fa5e93a4c429ed971717986926, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6217242641949606152, guid: 408192fa5e93a4c429ed971717986926, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 352
       objectReference: {fileID: 0}
     - target: {fileID: 6217242641949606152, guid: 408192fa5e93a4c429ed971717986926, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 6217242641949606152, guid: 408192fa5e93a4c429ed971717986926, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -25
       objectReference: {fileID: 0}
     - target: {fileID: 6358058460951234544, guid: 408192fa5e93a4c429ed971717986926, type: 3}
       propertyPath: m_Color.a
@@ -495,6 +502,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6358058460951234544, guid: 408192fa5e93a4c429ed971717986926, type: 3}
       propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6624872294465598731, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+      propertyPath: prefix
+      value: ' '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6624872294465598731, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+      propertyPath: tmpTexDisplay
+      value: 
+      objectReference: {fileID: 904418866}
+    - target: {fileID: 6624872294465598731, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+      propertyPath: onDamage.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6624872294465598731, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+      propertyPath: onDamage.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6624872294465598731, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+      propertyPath: onDamage.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2127486775}
+    - target: {fileID: 6624872294465598731, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+      propertyPath: onDamage.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6624872294465598731, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+      propertyPath: onDamage.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 6624872294465598731, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+      propertyPath: onDamage.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.Animator, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6624872294465598731, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+      propertyPath: onDamage.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: RedFlash
+      objectReference: {fileID: 0}
+    - target: {fileID: 6624872294465598731, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+      propertyPath: onDamage.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6678874179748398447, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6715558699911015758, guid: 408192fa5e93a4c429ed971717986926, type: 3}
@@ -616,7 +667,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6678874179748398447, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2127486775}
   m_SourcePrefab: {fileID: 100100000, guid: 408192fa5e93a4c429ed971717986926, type: 3}
 --- !u!1 &548315476
 GameObject:
@@ -714,6 +768,17 @@ Transform:
   - {fileID: 185990624}
   m_Father: {fileID: 5220245476012348608}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &904418866 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1497230102885818441, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+  m_PrefabInstance: {fileID: 434491354}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1001 &1087300323
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1283,6 +1348,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2068689526}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2127486771 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6678874179748398447, guid: 408192fa5e93a4c429ed971717986926, type: 3}
+  m_PrefabInstance: {fileID: 434491354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2127486775
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2127486771}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 84dd7d9a76976fa4ca8a91aba1d03a22, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1520746756216680829
 PrefabInstance:
   m_ObjectHideFlags: 0
