@@ -136,7 +136,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 925303924, guid: c5f558c4cf27faf49a15b138c8e0ec15, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -546,7 +546,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCFaceColourSync
   myNPCManager: {fileID: 0}
-  myRenderer: {fileID: 0}
+  myRenderer: {fileID: 2858035616539475084}
 --- !u!212 &2858035616539475084
 SpriteRenderer:
   serializedVersion: 2
@@ -594,7 +594,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: b762c261e66af274ebf53c811d735eaf, type: 3}
   m_Color: {r: 0.98742133, g: 0.27635372, b: 0.27635372, a: 1}
