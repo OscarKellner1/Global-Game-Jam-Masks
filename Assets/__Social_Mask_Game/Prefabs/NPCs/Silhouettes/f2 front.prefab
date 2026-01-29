@@ -105,6 +105,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7287471735932149963}
+  - component: {fileID: 2036508699351609765}
   - component: {fileID: 5093613599142415333}
   m_Layer: 0
   m_Name: face bg
@@ -128,6 +129,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 5001606955737358971}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2036508699351609765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240382858912884672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e742dd8198f43f545a4e84967d94d5df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPCFaceColourSync
+  myNPCManager: {fileID: 0}
+  myRenderer: {fileID: 0}
 --- !u!212 &5093613599142415333
 SpriteRenderer:
   serializedVersion: 2
