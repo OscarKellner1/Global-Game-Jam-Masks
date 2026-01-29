@@ -11,21 +11,28 @@ public class NPCBillboardManager : MonoBehaviour
     [Header("NPC Billboard References")]
     public NavMeshAgent agent;
     public Transform npcRootTransform;
-    public Transform billboardLookTransfom;
+    public Transform billboardLookTransfom;    
     public GameObject frontOnSprite;
     public GameObject sideLeftSprite;
     public GameObject sideRightSprite;
     public GameObject backSprite;
 
+    [Header("Billboard Random Colour")]
+    public Color colRangeStart = Color.white;
+    public Color colRangeEnd = Color.grey;
+    public Color billBoardTint = Color.black;
+
     [Header("Billboard Settings")]
     public float sideAngleThreshold;
     public float backAngleThreshold;
+    public float renderDistance = 25;
 
     [Header("System Stuff")]
     public Animator activeAnimator;
     public float angle2Player;
     public int angleMode = -1;
     public int prevAngleMode;
+    public float distance2Player;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -33,16 +40,37 @@ public class NPCBillboardManager : MonoBehaviour
     {
         if(playerTransform == null)
             playerTransform = GameObject.FindGameObjectWithTag(playerTag).transform;
+
+        if(billBoardTint == Color.black)
+        {
+            billBoardTint = Color.Lerp(colRangeStart, colRangeEnd, Random.Range(0.0f, 1.0f));
+
+            frontOnSprite.GetComponent<SpriteRenderer>().color = billBoardTint;
+            sideLeftSprite.GetComponent<SpriteRenderer>().color = billBoardTint;
+            sideRightSprite.GetComponent<SpriteRenderer>().color = billBoardTint;
+            backSprite.GetComponent<SpriteRenderer>().color = billBoardTint;
+        }
     }
 
     // Update is called once per frame
     void Update()
-    {
+    {   
+
         if (playerTransform != null && billboardLookTransfom != null && npcRootTransform != null)
         {
+            distance2Player = Vector3.Distance(playerTransform.position, transform.position);
+
             //BillBoard();
-            HandleAngles();
-            AnimationSync();
+
+            if (distance2Player <= renderDistance)
+            {
+                HandleAngles();
+                AnimationSync();
+            }
+            else
+            {
+                DisableSprites();
+            }
         }
 
         prevAngleMode = angleMode;
@@ -136,5 +164,13 @@ public class NPCBillboardManager : MonoBehaviour
         {
             activeAnimator.SetFloat("speed", agent.velocity.magnitude);
         }
+    }
+
+    public void DisableSprites()
+    {
+        frontOnSprite.SetActive(false);
+        sideLeftSprite.SetActive(false);
+        sideRightSprite.SetActive(false);
+        backSprite.SetActive(false);
     }
 }

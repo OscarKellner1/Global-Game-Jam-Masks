@@ -253,12 +253,17 @@ MonoBehaviour:
   sideLeftSprite: {fileID: 3360803215884396344}
   sideRightSprite: {fileID: 3342308267878532531}
   backSprite: {fileID: 9219620658110358461}
+  colRangeStart: {r: 1, g: 1, b: 1, a: 1}
+  colRangeEnd: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  billBoardTint: {r: 0, g: 0, b: 0, a: 1}
   sideAngleThreshold: 25
   backAngleThreshold: 25
+  renderDistance: 25
   activeAnimator: {fileID: 8165781528901104146}
   angle2Player: 0
   angleMode: 0
   prevAngleMode: 0
+  distance2Player: 0
 --- !u!1 &1292905100269056378
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,12 +352,17 @@ MonoBehaviour:
   sideLeftSprite: {fileID: 6265291586451465524}
   sideRightSprite: {fileID: 1093133349135654553}
   backSprite: {fileID: 2275857439370566011}
+  colRangeStart: {r: 1, g: 1, b: 1, a: 1}
+  colRangeEnd: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  billBoardTint: {r: 0, g: 0, b: 0, a: 1}
   sideAngleThreshold: 25
   backAngleThreshold: 25
+  renderDistance: 25
   activeAnimator: {fileID: 497793555047706903}
   angle2Player: 0
   angleMode: 0
   prevAngleMode: 0
+  distance2Player: 0
 --- !u!1 &1553488211343663782
 GameObject:
   m_ObjectHideFlags: 0
@@ -410,12 +420,17 @@ MonoBehaviour:
   sideLeftSprite: {fileID: 7394567531971431320}
   sideRightSprite: {fileID: 7904487468409914630}
   backSprite: {fileID: 4162930085312090620}
+  colRangeStart: {r: 1, g: 1, b: 1, a: 1}
+  colRangeEnd: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  billBoardTint: {r: 0, g: 0, b: 0, a: 1}
   sideAngleThreshold: 25
   backAngleThreshold: 25
+  renderDistance: 25
   activeAnimator: {fileID: 7618996845069489362}
   angle2Player: 0
   angleMode: 0
   prevAngleMode: 0
+  distance2Player: 0
 --- !u!1 &2943951317229056063
 GameObject:
   m_ObjectHideFlags: 0
@@ -473,12 +488,17 @@ MonoBehaviour:
   sideLeftSprite: {fileID: 4844727706602777730}
   sideRightSprite: {fileID: 5666518495666873624}
   backSprite: {fileID: 3433685424736638047}
+  colRangeStart: {r: 1, g: 1, b: 1, a: 1}
+  colRangeEnd: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  billBoardTint: {r: 0, g: 0, b: 0, a: 1}
   sideAngleThreshold: 25
   backAngleThreshold: 25
+  renderDistance: 25
   activeAnimator: {fileID: 8787237475670528701}
   angle2Player: 0
   angleMode: 0
   prevAngleMode: 0
+  distance2Player: 0
 --- !u!1 &3974844987665366454
 GameObject:
   m_ObjectHideFlags: 0
@@ -488,8 +508,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7972128367312149380}
-  - component: {fileID: 8161239966316821393}
-  - component: {fileID: 2618137690064054766}
   m_Layer: 11
   m_Name: Player React Rig
   m_TagString: Untagged
@@ -516,44 +534,6 @@ Transform:
   - {fileID: 5772508816558236319}
   m_Father: {fileID: 4421593565393320685}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8161239966316821393
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3974844987665366454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f1ce8e00f8490247b119b4132ad9654, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  subject: {fileID: 4421593565393320685}
-  positionSyncRate: 3
-  offset: {x: 0, y: 0, z: 0}
-  startRotation: {x: 0, y: 0, z: 0, w: 0}
-  yRotation: 0
-  autoSyncYRotation: 0
-  rotationSyncRate: 0.1
---- !u!114 &2618137690064054766
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3974844987665366454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d28624e50ae20864dbec36a8b2b27f11, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  subject: {fileID: 0}
-  defaultTargetTag: Player
-  constantTracking: 1
-  yLookOnly: 1
-  startRotation: {x: 0, y: 0, z: 0, w: 0}
-  yRotation: 0
 --- !u!1 &4160062476910544704
 GameObject:
   m_ObjectHideFlags: 0
@@ -565,8 +545,8 @@ GameObject:
   - component: {fileID: 5924330549924301545}
   - component: {fileID: 4761248100293514716}
   - component: {fileID: 3411494621461659130}
-  - component: {fileID: 6810788660976316728}
   - component: {fileID: 1972145369782257210}
+  - component: {fileID: 9162387490333150014}
   m_Layer: 11
   m_Name: Trigger Area
   m_TagString: Untagged
@@ -583,8 +563,8 @@ Transform:
   m_GameObject: {fileID: 4160062476910544704}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.409, z: 1.54}
-  m_LocalScale: {x: 1.913785, y: 2.3240144, z: 2.9654968}
+  m_LocalPosition: {x: 0, y: 1.164, z: 0}
+  m_LocalScale: {x: 7, y: 7, z: 7}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7972128367312149380}
@@ -646,27 +626,6 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6810788660976316728
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4160062476910544704}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1972145369782257210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -681,6 +640,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPCMaskReactor
   subject: {fileID: 0}
   walkingManager: {fileID: 6092104349403106815}
+  lookAtRoot: {fileID: 7972128367312149380}
   onMaskA:
     m_PersistentCalls:
       m_Calls:
@@ -758,6 +718,27 @@ MonoBehaviour:
         m_CallState: 2
   onMaskFlag: 0
   prevMaskType: -1
+--- !u!135 &9162387490333150014
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4160062476910544704}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.50000006
+  m_Center: {x: 0, y: 0.00000011920929, z: 0.00000011920929}
 --- !u!1 &5111726270600830939
 GameObject:
   m_ObjectHideFlags: 0
@@ -866,7 +847,7 @@ MonoBehaviour:
   subject: {fileID: 0}
   defaultTargetTag: Player
   constantTracking: 1
-  yLookOnly: 1
+  yLookOnly: 0
   startRotation: {x: 0, y: 0, z: 0, w: 0}
   yRotation: 0
 --- !u!143 &4151180506738985505

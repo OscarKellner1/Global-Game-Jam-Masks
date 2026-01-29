@@ -1980,7 +1980,7 @@ GameObject:
   - component: {fileID: 5155795417585919095}
   - component: {fileID: 4345564083805631784}
   - component: {fileID: 3183283374971491635}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Player - Social Mask Game
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -4048,6 +4048,10 @@ PrefabInstance:
     - target: {fileID: 2946763472958749287, guid: 6b40b22ae5fcc444f8512a678772bc4d, type: 3}
       propertyPath: m_Name
       value: DeltaBlockout Rig
+      objectReference: {fileID: 0}
+    - target: {fileID: 2946763472958749287, guid: 6b40b22ae5fcc444f8512a678772bc4d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5949750088308786265, guid: 6b40b22ae5fcc444f8512a678772bc4d, type: 3}
       propertyPath: moveDeltaThreshold

@@ -6,6 +6,7 @@ public class NPCMaskReactor : MonoBehaviour
 {
     public PlayerMaskManager subject;
     public NMAWalkTowards walkingManager;
+    public Transform lookAtRoot;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public UnityEvent onMaskA;
@@ -44,6 +45,8 @@ public class NPCMaskReactor : MonoBehaviour
             }
 
             prevMaskType = subject.maskType;
+
+            lookAtRoot.LookAt(subject.transform);
         }
     }
 

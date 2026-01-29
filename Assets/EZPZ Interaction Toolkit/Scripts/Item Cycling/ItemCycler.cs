@@ -81,7 +81,7 @@ public class ItemCycler : MonoBehaviour
 
         foreach (GameObject g in items)
         {
-            Debug.Log("Disabling: " + g.name);
+            //Debug.Log("Disabling: " + g.name);
             g.SetActive(false);
         }
     }
@@ -93,7 +93,7 @@ public class ItemCycler : MonoBehaviour
 
     public void ActivateCurrentItem()
     {
-        Debug.Log("ActivateCurrentItem()....");
+        //Debug.Log("ActivateCurrentItem()....");
         itemIndex = Mathf.Clamp(itemIndex, 0, items.Length - 1);
         ActivateItem(itemIndex);
     }
@@ -110,7 +110,7 @@ public class ItemCycler : MonoBehaviour
 
     public void ActivateItem(int index)
     {
-        Debug.Log("ActivateCurrentItem: " +  index);
+        //Debug.Log("ActivateCurrentItem: " +  index);
 
         itemIndex = index;
 
@@ -130,7 +130,7 @@ public class ItemCycler : MonoBehaviour
             }
         }
 
-        Debug.Log("Activating: " + items[itemIndex].name);
+        //Debug.Log("Activating: " + items[itemIndex].name);
         items[index].SetActive(true);
         currentItem = items[index];
     }
