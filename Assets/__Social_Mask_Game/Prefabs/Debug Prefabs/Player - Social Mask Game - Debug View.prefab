@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5704972966183712039}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: square_pair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7871284119756179573}
   - component: {fileID: 5654064836913384721}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mini_square_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -134,7 +134,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2239386356580474779}
   - component: {fileID: 5422587907181876030}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: keyboard-and-hands
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -225,7 +225,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1479398627074772363}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Crosshair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 4467879020066662469}
   - component: {fileID: 3357499121367704292}
   - component: {fileID: 5240877188994446107}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Drop Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -406,7 +406,7 @@ GameObject:
   - component: {fileID: 5230283861814732121}
   - component: {fileID: 6309338730713204779}
   - component: {fileID: 6245739683993985671}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: MainCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -474,7 +474,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 1651
+    m_Bits: 3699
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -593,7 +593,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2925287599819733916}
   - component: {fileID: 1982166534390536331}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: FingerClickable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -685,7 +685,7 @@ GameObject:
   - component: {fileID: 774922646552274993}
   - component: {fileID: 297539600441260002}
   - component: {fileID: 3173497809047585825}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -822,7 +822,7 @@ GameObject:
   - component: {fileID: 8042475194429318666}
   - component: {fileID: 8884929107227618243}
   - component: {fileID: 5883939929651016185}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Eye Visor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -912,7 +912,7 @@ GameObject:
   - component: {fileID: 868391608552396752}
   - component: {fileID: 3996576667891371376}
   - component: {fileID: 1910404359396951731}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1003,7 +1003,7 @@ GameObject:
   - component: {fileID: 1427945005803674559}
   - component: {fileID: 3685063581039473890}
   - component: {fileID: 7061377714750687101}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UI_EventSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1096,7 +1096,7 @@ GameObject:
   - component: {fileID: 5561797311936645076}
   - component: {fileID: 2146866833305151479}
   - component: {fileID: 1542672373600633671}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: TooFar Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1199,7 +1199,7 @@ GameObject:
   - component: {fileID: 365546558919580804}
   - component: {fileID: 1434234984495467277}
   - component: {fileID: 557831326198189165}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Keyboard Mode Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1300,7 +1300,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4271482343491680706}
   - component: {fileID: 2612329488840717541}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mini_square_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1390,7 +1390,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6684153990010592165}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Player Graphics
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1425,7 +1425,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6271571940295377350}
   - component: {fileID: 413144586359151869}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mini_square_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1516,7 +1516,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5959539852582727119}
   - component: {fileID: 6222267846852049141}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mini_square_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1607,7 +1607,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1498152297462800993}
   - component: {fileID: 4946968105903738028}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: clipart510261_2 (c)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1701,7 +1701,7 @@ GameObject:
   - component: {fileID: 8931307061551112587}
   - component: {fileID: 880977064496197345}
   - component: {fileID: 1159387164865015435}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PlayerFollowCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1832,7 +1832,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5214844704206664787}
   - component: {fileID: 6694886786652277190}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mini_square_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1923,7 +1923,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9097835022263616050}
   - component: {fileID: 272936708475047858}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mini_square_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2014,7 +2014,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7414716804187052497}
   - component: {fileID: 3110084371593141721}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: clipart510261_2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2104,7 +2104,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8137408473877914816}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: square_pair (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2139,7 +2139,7 @@ GameObject:
   - component: {fileID: 5590389788675080614}
   - component: {fileID: 8290608551368667629}
   - component: {fileID: 2970950378781750544}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2275,7 +2275,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7541207488998808203}
   - component: {fileID: 5630776830069804804}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: clipart510261_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2367,7 +2367,7 @@ GameObject:
   - component: {fileID: 7387652336525513646}
   - component: {fileID: 5811128139936447001}
   - component: {fileID: 8850833728493267958}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Cylinder Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2456,7 +2456,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4415967502120077870}
   - component: {fileID: 1333126128323804921}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: clipart510261_2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2549,7 +2549,7 @@ GameObject:
   - component: {fileID: 7805467571651972425}
   - component: {fileID: 8793193946139069626}
   - component: {fileID: 4047973470728144869}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: HoverText Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2652,7 +2652,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2567927079061633612}
   - component: {fileID: 6637132231375814445}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mini_square_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2743,7 +2743,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2392196700362470395}
   - component: {fileID: 4588907936379038466}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mini_square_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2841,7 +2841,7 @@ GameObject:
   - component: {fileID: 7807504457718083589}
   - component: {fileID: 2643479604252506971}
   - component: {fileID: 2022530983214772777}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Player - Social Mask Game - Debug View
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -3150,7 +3150,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3621022466854430204}
   - component: {fileID: 1673512197454456722}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: FingerClicking
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3240,7 +3240,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5639810482467863297}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: square_pair (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3274,7 +3274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2016426919615594220}
   - component: {fileID: 1075827056315160213}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: clipart510261_2 (l)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3364,7 +3364,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4108516867443033759}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: square_pair (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3400,7 +3400,7 @@ GameObject:
   - component: {fileID: 8554808558723646778}
   - component: {fileID: 2247860565662142378}
   - component: {fileID: 7540931266210747699}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EnvironmentHitIndicator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3502,7 +3502,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4851045646428102406}
   - component: {fileID: 9046533236035958221}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: clipart510261_2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3595,7 +3595,7 @@ GameObject:
   - component: {fileID: 8938813846688238498}
   - component: {fileID: 2470947061770325720}
   - component: {fileID: 5177561622944155807}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GeneralHitIndicator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3696,7 +3696,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9191826022727972211}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PlayerCameraRoot
   m_TagString: CinemachineTarget
   m_Icon: {fileID: 0}
@@ -3728,7 +3728,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1636248846300205310}
   - component: {fileID: 6954214669709420022}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: clipart510261_2 (r)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3820,7 +3820,7 @@ GameObject:
   - component: {fileID: 8373381771240499021}
   - component: {fileID: 2434759985375569750}
   - component: {fileID: 6635617388800366875}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3956,7 +3956,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8756971766045115731}
   - component: {fileID: 5064526519224141224}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: clipart510261_2 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4049,6 +4049,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeltaBlockout Rig
       objectReference: {fileID: 0}
+    - target: {fileID: 2946763472958749287, guid: 6b40b22ae5fcc444f8512a678772bc4d, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5949750088308786265, guid: 6b40b22ae5fcc444f8512a678772bc4d, type: 3}
       propertyPath: moveDeltaThreshold
       value: 1.2
@@ -4092,6 +4096,10 @@ PrefabInstance:
     - target: {fileID: 6446017642992636548, guid: 6b40b22ae5fcc444f8512a678772bc4d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6639090046790929930, guid: 6b40b22ae5fcc444f8512a678772bc4d, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6639090046790929930, guid: 6b40b22ae5fcc444f8512a678772bc4d, type: 3}
       propertyPath: m_IsActive

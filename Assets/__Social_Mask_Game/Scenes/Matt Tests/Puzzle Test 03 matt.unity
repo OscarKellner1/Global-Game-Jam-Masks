@@ -1930,10 +1930,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player - Social Mask Game - Debug View
       objectReference: {fileID: 0}
-    - target: {fileID: 7239496793340447696, guid: 52ddea7c3033bf343b0c5a5064bb7035, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
