@@ -2274,6 +2274,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMaskManager
   maskType: 0
   emotionalHealth: 100
+  onTakeDamage:
+    m_PersistentCalls:
+      m_Calls: []
+  myUIManager: {fileID: 0}
+  drainDamage: 0
 --- !u!1 &5431965503849345938
 GameObject:
   m_ObjectHideFlags: 0
@@ -3071,7 +3076,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 1655
+    m_Bits: 1651
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0

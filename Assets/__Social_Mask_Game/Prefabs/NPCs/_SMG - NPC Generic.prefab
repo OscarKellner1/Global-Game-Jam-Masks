@@ -743,7 +743,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5772508816558236319}
   - component: {fileID: 892273904327901175}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Mask Reactions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -908,6 +908,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mask Label (0)
       objectReference: {fileID: 0}
+    - target: {fileID: 3172445459502377556, guid: 815976abe225a8b45bd181f927c9c927, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6055668534160416037, guid: 815976abe225a8b45bd181f927c9c927, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -988,6 +992,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8657581928870634001, guid: 815976abe225a8b45bd181f927c9c927, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1039,6 +1047,10 @@ PrefabInstance:
     - target: {fileID: 3172445459502377556, guid: 815976abe225a8b45bd181f927c9c927, type: 3}
       propertyPath: m_Name
       value: Mask Label (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172445459502377556, guid: 815976abe225a8b45bd181f927c9c927, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3172445459502377556, guid: 815976abe225a8b45bd181f927c9c927, type: 3}
       propertyPath: m_IsActive
@@ -1124,6 +1136,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8657581928870634001, guid: 815976abe225a8b45bd181f927c9c927, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1154,6 +1170,10 @@ PrefabInstance:
     - target: {fileID: 3172445459502377556, guid: 815976abe225a8b45bd181f927c9c927, type: 3}
       propertyPath: m_Name
       value: Mask Label None
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172445459502377556, guid: 815976abe225a8b45bd181f927c9c927, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3172445459502377556, guid: 815976abe225a8b45bd181f927c9c927, type: 3}
       propertyPath: m_IsActive
@@ -1251,6 +1271,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8657581928870634001, guid: 815976abe225a8b45bd181f927c9c927, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1281,6 +1305,10 @@ PrefabInstance:
     - target: {fileID: 3172445459502377556, guid: 815976abe225a8b45bd181f927c9c927, type: 3}
       propertyPath: m_Name
       value: Mask Label (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172445459502377556, guid: 815976abe225a8b45bd181f927c9c927, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3172445459502377556, guid: 815976abe225a8b45bd181f927c9c927, type: 3}
       propertyPath: m_IsActive
@@ -1366,6 +1394,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8657581928870634001, guid: 815976abe225a8b45bd181f927c9c927, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1389,6 +1421,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 9194182765971728299}
     m_Modifications:
+    - target: {fileID: 2036508699351609765, guid: 6cbf3e097e5318b4eace800e85b8ca9f, type: 3}
+      propertyPath: myRenderer
+      value: 
+      objectReference: {fileID: 9036775051960454120}
+    - target: {fileID: 2036508699351609765, guid: 6cbf3e097e5318b4eace800e85b8ca9f, type: 3}
+      propertyPath: myNPCManager
+      value: 
+      objectReference: {fileID: 8340620205614768875}
     - target: {fileID: 4022894691093625082, guid: 6cbf3e097e5318b4eace800e85b8ca9f, type: 3}
       propertyPath: m_Name
       value: f2 front
@@ -1433,6 +1473,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5093613599142415333, guid: 6cbf3e097e5318b4eace800e85b8ca9f, type: 3}
+      propertyPath: m_Color.b
+      value: 0.2740594
+      objectReference: {fileID: 0}
+    - target: {fileID: 5093613599142415333, guid: 6cbf3e097e5318b4eace800e85b8ca9f, type: 3}
+      propertyPath: m_Color.g
+      value: 0.93710685
+      objectReference: {fileID: 0}
+    - target: {fileID: 5093613599142415333, guid: 6cbf3e097e5318b4eace800e85b8ca9f, type: 3}
+      propertyPath: m_Color.r
+      value: 0.2986146
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1446,6 +1498,11 @@ GameObject:
 --- !u!95 &8165781528901104146 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 5371556968518660639, guid: 6cbf3e097e5318b4eace800e85b8ca9f, type: 3}
+  m_PrefabInstance: {fileID: 4312537024344915981}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &9036775051960454120 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 5093613599142415333, guid: 6cbf3e097e5318b4eace800e85b8ca9f, type: 3}
   m_PrefabInstance: {fileID: 4312537024344915981}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &9209942928740595260 stripped
@@ -1557,6 +1614,10 @@ PrefabInstance:
       value: Mask Label (3)
       objectReference: {fileID: 0}
     - target: {fileID: 3172445459502377556, guid: 815976abe225a8b45bd181f927c9c927, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172445459502377556, guid: 815976abe225a8b45bd181f927c9c927, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -1639,6 +1700,10 @@ PrefabInstance:
     - target: {fileID: 6055668534160416037, guid: 815976abe225a8b45bd181f927c9c927, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8657581928870634001, guid: 815976abe225a8b45bd181f927c9c927, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
