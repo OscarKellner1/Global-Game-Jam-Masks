@@ -140,6 +140,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCManager
   faceColour: {r: 0.2986146, g: 0.93710685, b: 0.2740594, a: 1}
+  billboardSelector: {fileID: 442176718507591255}
+  myBillboardManager: {fileID: 0}
+  myPlayerAttacker: {fileID: 780813699598501994}
 --- !u!114 &6092104349403106815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,7 +212,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &9194182765971728299
 Transform:
   m_ObjectHideFlags: 0
@@ -303,7 +306,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5416471797621535244
 Transform:
   m_ObjectHideFlags: 0
@@ -690,6 +693,7 @@ GameObject:
   - component: {fileID: 2104927164366804781}
   - component: {fileID: 8229968006651520769}
   - component: {fileID: 4151180506738985505}
+  - component: {fileID: 442176718507591255}
   m_Layer: 0
   m_Name: Jorja Sprites
   m_TagString: Untagged
@@ -759,6 +763,53 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.94, z: 0}
+--- !u!114 &442176718507591255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6301769803739427640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 325923b7a62944e44b63f1054f93b3bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemCycler
+  itemIndex: 0
+  currentItem: {fileID: 0}
+  items:
+  - {fileID: 1553488211343663782}
+  - {fileID: 1139285530725939412}
+  loopCycle: 1
+  exclusiveMode: 1
+  cascadeMode: 0
+  autoSync: 0
+  indexSynchroniser: {fileID: 0}
+  onNextItem:
+    m_PersistentCalls:
+      m_Calls: []
+  onPrevItem:
+    m_PersistentCalls:
+      m_Calls: []
+  onChangeItem:
+    m_PersistentCalls:
+      m_Calls: []
+  onFirstItem:
+    m_PersistentCalls:
+      m_Calls: []
+  onLastItem:
+    m_PersistentCalls:
+      m_Calls: []
+  onFirstOverflow:
+    m_PersistentCalls:
+      m_Calls: []
+  onLastOverflow:
+    m_PersistentCalls:
+      m_Calls: []
+  onOverflow:
+    m_PersistentCalls:
+      m_Calls: []
+  prevItemIndex: -1
 --- !u!1 &8067147045695916176
 GameObject:
   m_ObjectHideFlags: 0
@@ -854,9 +905,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5416471797621535244}
     m_Modifications:
+    - target: {fileID: 311685362511677172, guid: f046a2b343852ac4fa3dd0a9cd4b4c07, type: 3}
+      propertyPath: myRenderer
+      value: 
+      objectReference: {fileID: 2731299088132877757}
+    - target: {fileID: 311685362511677172, guid: f046a2b343852ac4fa3dd0a9cd4b4c07, type: 3}
+      propertyPath: myNPCManager
+      value: 
+      objectReference: {fileID: 8340620205614768875}
     - target: {fileID: 569299470084500909, guid: f046a2b343852ac4fa3dd0a9cd4b4c07, type: 3}
       propertyPath: m_Name
       value: m2 front
+      objectReference: {fileID: 0}
+    - target: {fileID: 2858035616539475084, guid: f046a2b343852ac4fa3dd0a9cd4b4c07, type: 3}
+      propertyPath: m_Color.b
+      value: 0.2740594
+      objectReference: {fileID: 0}
+    - target: {fileID: 2858035616539475084, guid: f046a2b343852ac4fa3dd0a9cd4b4c07, type: 3}
+      propertyPath: m_Color.g
+      value: 0.93710685
+      objectReference: {fileID: 0}
+    - target: {fileID: 2858035616539475084, guid: f046a2b343852ac4fa3dd0a9cd4b4c07, type: 3}
+      propertyPath: m_Color.r
+      value: 0.2986146
       objectReference: {fileID: 0}
     - target: {fileID: 5680579692473609500, guid: f046a2b343852ac4fa3dd0a9cd4b4c07, type: 3}
       propertyPath: m_LocalPosition.x
@@ -906,6 +977,11 @@ PrefabInstance:
 --- !u!1 &407787519196380316 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 569299470084500909, guid: f046a2b343852ac4fa3dd0a9cd4b4c07, type: 3}
+  m_PrefabInstance: {fileID: 166156327213453617}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &2731299088132877757 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 2858035616539475084, guid: f046a2b343852ac4fa3dd0a9cd4b4c07, type: 3}
   m_PrefabInstance: {fileID: 166156327213453617}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &5520066717022305325 stripped
