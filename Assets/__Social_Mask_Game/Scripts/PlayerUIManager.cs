@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.XR.OpenXR.API;
 
 public class PlayerUIManager : MonoBehaviour
 {
@@ -16,6 +17,10 @@ public class PlayerUIManager : MonoBehaviour
     [Header("Events")]
     public UnityEvent onDamage;
     public UnityEvent onDrain;
+    public UnityEvent onZeroHealth;
+
+    [Header("System Flag")]
+    public bool zeroHealthFlag = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -35,6 +40,15 @@ public class PlayerUIManager : MonoBehaviour
         if(vignetteAnimator != null)
         {
             vignetteAnimator.SetFloat("DPS", myPlayerManager.drainDamage);
+        }
+
+        if(!zeroHealthFlag)
+        {
+            if(myPlayerManager.emotionalHealth <= 0)
+            {
+                onZeroHealth.Invoke();
+                zeroHealthFlag = true;
+            }
         }
     }
 }

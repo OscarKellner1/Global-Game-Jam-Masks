@@ -36,7 +36,7 @@ public class GenUtils : MonoBehaviour
         string hourString = hourTotal.ToString();
         string secString = secTotal.ToString(format);
 
-        Debug.Log("secTotal: " + secTotal);
+        //Debug.Log("secTotal: " + secTotal);
 
         if (hourTotal > 0)
             result += hourString + ":";

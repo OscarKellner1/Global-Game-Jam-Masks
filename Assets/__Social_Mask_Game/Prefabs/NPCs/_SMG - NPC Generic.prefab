@@ -682,6 +682,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   myBillboardManager: {fileID: 3842597390273223037}
+  attackClock: 0
+  attackDelay: 2.5
+  attackFlag: 0
 --- !u!1 &6301769803739427640
 GameObject:
   m_ObjectHideFlags: 0
@@ -1129,6 +1132,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   myBillboardManager: {fileID: 0}
+  attackClock: 0
+  attackDelay: 2
+  attackFlag: 0
 --- !u!224 &5083090046372591154 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6055668534160416037, guid: 815976abe225a8b45bd181f927c9c927, type: 3}
