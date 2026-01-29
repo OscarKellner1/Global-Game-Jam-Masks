@@ -1183,7 +1183,7 @@ MonoBehaviour:
   prefix: ' '
   healthBar: {fileID: 7534433403055398172}
   healthDisplayString: N0
-  vignetteAnimator: {fileID: 0}
+  vignetteAnimator: {fileID: 4303307310142627860}
   onDamage:
     m_PersistentCalls:
       m_Calls:
