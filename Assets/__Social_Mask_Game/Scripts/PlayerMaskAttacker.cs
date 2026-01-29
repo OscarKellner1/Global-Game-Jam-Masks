@@ -47,13 +47,18 @@ public class PlayerMaskAttacker : MonoBehaviour
             if(myReactor.subject != null)
             {
                 myReactor.subject.TakeDamageOneshot(ed);
+
+                if (myBillboardManager != null)
+                {
+                    myBillboardManager.activeAnimator.SetTrigger("attack");
+                }
             }
         }
-
-        if(myBillboardManager != null)
+        else
         {
-            myBillboardManager.activeAnimator.SetTrigger("attack");
+            StopAttack();
         }
+
     }
 
     public void StopAttack()

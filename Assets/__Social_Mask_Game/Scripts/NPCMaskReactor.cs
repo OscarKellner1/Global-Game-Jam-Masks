@@ -49,16 +49,27 @@ public class NPCMaskReactor : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("NPCMaskReactor: " + other.name);
+        //Debug.Log("NPCMaskReactor: " + other.name);
         subject = other.GetComponent<PlayerMaskManager>();
         onMaskFlag = false;
 
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if(subject == null)
+        {
+            Debug.Log("NPCMaskReactor: Subject Restored: " + other.name);
+            subject = other.GetComponent<PlayerMaskManager>();
+            onMaskFlag = false;
+        }
     }
 
     private void OnTriggerExit(Collider other)
     {
         onExit.Invoke();
 
+        walkingManager.destination = null;
         subject = null;
         onMaskFlag = false;
     }
