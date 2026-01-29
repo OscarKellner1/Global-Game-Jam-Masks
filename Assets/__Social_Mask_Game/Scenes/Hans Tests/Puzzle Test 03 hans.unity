@@ -433,30 +433,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1032170842451066251, guid: 408192fa5e93a4c429ed971717986926, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1032170842451066251, guid: 408192fa5e93a4c429ed971717986926, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1032170842451066251, guid: 408192fa5e93a4c429ed971717986926, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1032170842451066251, guid: 408192fa5e93a4c429ed971717986926, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -25
-      objectReference: {fileID: 0}
-    - target: {fileID: 1611169983730256264, guid: 408192fa5e93a4c429ed971717986926, type: 3}
-      propertyPath: m_fontSize
-      value: 72
-      objectReference: {fileID: 0}
-    - target: {fileID: 1611169983730256264, guid: 408192fa5e93a4c429ed971717986926, type: 3}
-      propertyPath: m_enableAutoSizing
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1637873070929991063, guid: 408192fa5e93a4c429ed971717986926, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -537,49 +513,9 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5140856500986518288, guid: 408192fa5e93a4c429ed971717986926, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6078637461256062672, guid: 408192fa5e93a4c429ed971717986926, type: 3}
-      propertyPath: m_Color.b
-      value: 0.74012107
-      objectReference: {fileID: 0}
-    - target: {fileID: 6078637461256062672, guid: 408192fa5e93a4c429ed971717986926, type: 3}
-      propertyPath: m_Color.g
-      value: 0.74012107
-      objectReference: {fileID: 0}
-    - target: {fileID: 6078637461256062672, guid: 408192fa5e93a4c429ed971717986926, type: 3}
-      propertyPath: m_Color.r
-      value: 0.8301887
-      objectReference: {fileID: 0}
-    - target: {fileID: 6217242641949606152, guid: 408192fa5e93a4c429ed971717986926, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 449
-      objectReference: {fileID: 0}
-    - target: {fileID: 6358058460951234544, guid: 408192fa5e93a4c429ed971717986926, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 6678874179748398447, guid: 408192fa5e93a4c429ed971717986926, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6715558699911015758, guid: 408192fa5e93a4c429ed971717986926, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6715558699911015758, guid: 408192fa5e93a4c429ed971717986926, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6715558699911015758, guid: 408192fa5e93a4c429ed971717986926, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6715558699911015758, guid: 408192fa5e93a4c429ed971717986926, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -98.8
+      value: -79
       objectReference: {fileID: 0}
     - target: {fileID: 6726382630218646183, guid: 408192fa5e93a4c429ed971717986926, type: 3}
       propertyPath: m_Pivot.x
@@ -665,38 +601,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Face Selection UI
       objectReference: {fileID: 0}
-    - target: {fileID: 7534433403055398172, guid: 408192fa5e93a4c429ed971717986926, type: 3}
-      propertyPath: m_Type
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7534433403055398172, guid: 408192fa5e93a4c429ed971717986926, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-    - target: {fileID: 7534433403055398172, guid: 408192fa5e93a4c429ed971717986926, type: 3}
-      propertyPath: m_FillAmount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7534433403055398172, guid: 408192fa5e93a4c429ed971717986926, type: 3}
-      propertyPath: m_FillMethod
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7752388526417882133, guid: 408192fa5e93a4c429ed971717986926, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 79
-      objectReference: {fileID: 0}
-    - target: {fileID: 8078194347683549976, guid: 408192fa5e93a4c429ed971717986926, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 143
-      objectReference: {fileID: 0}
-    - target: {fileID: 8484506962119810808, guid: 408192fa5e93a4c429ed971717986926, type: 3}
-      propertyPath: m_text
-      value: Time Remaining
-      objectReference: {fileID: 0}
-    - target: {fileID: 8484506962119810808, guid: 408192fa5e93a4c429ed971717986926, type: 3}
-      propertyPath: m_fontStyle
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8606205254415973558, guid: 408192fa5e93a4c429ed971717986926, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -715,28 +619,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 6726382630218646183, guid: 408192fa5e93a4c429ed971717986926, type: 3}
-      insertIndex: 0
-      addedObject: {fileID: 1535266836}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 408192fa5e93a4c429ed971717986926, type: 3}
---- !u!224 &212154769 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 6726382630218646183, guid: 408192fa5e93a4c429ed971717986926, type: 3}
-  m_PrefabInstance: {fileID: 212154768}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &212154770 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1611169983730256264, guid: 408192fa5e93a4c429ed971717986926, type: 3}
-  m_PrefabInstance: {fileID: 212154768}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1 &548315476
 GameObject:
   m_ObjectHideFlags: 0
@@ -1092,69 +977,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1535266835
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1535266836}
-  - component: {fileID: 1535266837}
-  m_Layer: 5
-  m_Name: Countdown Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1535266836
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1535266835}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 212154769}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1535266837
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1535266835}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8dc0aa9390e98e94b92ddd9411e99031, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CountdownEvent
-  startingTime: 300
-  clock: 300
-  looping: 0
-  resetOnEnable: 0
-  onClockZero:
-    m_PersistentCalls:
-      m_Calls: []
-  onReset:
-    m_PersistentCalls:
-      m_Calls: []
-  textDisplay: {fileID: 0}
-  textDisplayUGui: {fileID: 212154770}
-  format: N2
-  triggerFlag: 0
-  clockRunning: 1
 --- !u!1 &1838536948
 GameObject:
   m_ObjectHideFlags: 0
