@@ -258,7 +258,7 @@ MonoBehaviour:
   billBoardTint: {r: 0, g: 0, b: 0, a: 1}
   sideAngleThreshold: 25
   backAngleThreshold: 25
-  renderDistance: 25
+  renderDistance: 40
   activeAnimator: {fileID: 8165781528901104146}
   angle2Player: 0
   angleMode: 0
@@ -357,7 +357,7 @@ MonoBehaviour:
   billBoardTint: {r: 0, g: 0, b: 0, a: 1}
   sideAngleThreshold: 25
   backAngleThreshold: 25
-  renderDistance: 25
+  renderDistance: 40
   activeAnimator: {fileID: 497793555047706903}
   angle2Player: 0
   angleMode: 0
@@ -425,7 +425,7 @@ MonoBehaviour:
   billBoardTint: {r: 0, g: 0, b: 0, a: 1}
   sideAngleThreshold: 25
   backAngleThreshold: 25
-  renderDistance: 25
+  renderDistance: 40
   activeAnimator: {fileID: 7618996845069489362}
   angle2Player: 0
   angleMode: 0
@@ -493,7 +493,7 @@ MonoBehaviour:
   billBoardTint: {r: 0, g: 0, b: 0, a: 1}
   sideAngleThreshold: 25
   backAngleThreshold: 25
-  renderDistance: 25
+  renderDistance: 40
   activeAnimator: {fileID: 8787237475670528701}
   angle2Player: 0
   angleMode: 0
