@@ -20,6 +20,14 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: a89f2d515aa48794e9ead93323564363, type: 2}
+    - target: {fileID: 780813699598501994, guid: 4e613ddf5f376f044b802f8f0f5410be, type: 3}
+      propertyPath: attackDelay
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 780813699598501994, guid: 4e613ddf5f376f044b802f8f0f5410be, type: 3}
+      propertyPath: emotionalDamage
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 1972145369782257210, guid: 4e613ddf5f376f044b802f8f0f5410be, type: 3}
       propertyPath: onExit.m_PersistentCalls.m_Calls.Array.size
       value: 3
