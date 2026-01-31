@@ -559,8 +559,39 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5981870912415873622, guid: 4e613ddf5f376f044b802f8f0f5410be, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9209808359146208354}
+    - targetCorrespondingSourceObject: {fileID: 6417670078976343175, guid: 4e613ddf5f376f044b802f8f0f5410be, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3822466294435168292}
+    - targetCorrespondingSourceObject: {fileID: 6943752370400464550, guid: 4e613ddf5f376f044b802f8f0f5410be, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6261432153858753603}
+    - targetCorrespondingSourceObject: {fileID: 7985994090409930467, guid: 4e613ddf5f376f044b802f8f0f5410be, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4723271738898266381}
   m_SourcePrefab: {fileID: 100100000, guid: 4e613ddf5f376f044b802f8f0f5410be, type: 3}
+--- !u!1 &1573459480417710753 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6417670078976343175, guid: 4e613ddf5f376f044b802f8f0f5410be, type: 3}
+  m_PrefabInstance: {fileID: 5532155237169434150}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3822466294435168292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573459480417710753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 266525e51b746114790f430c4cbfa8c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpriteColourSync
+  spriteRef: {fileID: 2833092073987280914}
+  mySprite: {fileID: 4778479974724361860}
 --- !u!114 &1751241923685106649 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6092104349403106815, guid: 4e613ddf5f376f044b802f8f0f5410be, type: 3}
@@ -572,6 +603,78 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68d92bc386e62d547b1c396df61103ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &2289506492879418480 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5981870912415873622, guid: 4e613ddf5f376f044b802f8f0f5410be, type: 3}
+  m_PrefabInstance: {fileID: 5532155237169434150}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9209808359146208354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2289506492879418480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 266525e51b746114790f430c4cbfa8c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpriteColourSync
+  spriteRef: {fileID: 7055225802208729891}
+  mySprite: {fileID: 6146531278034751227}
+--- !u!1 &2456109625016950981 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7985994090409930467, guid: 4e613ddf5f376f044b802f8f0f5410be, type: 3}
+  m_PrefabInstance: {fileID: 5532155237169434150}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4723271738898266381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2456109625016950981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 266525e51b746114790f430c4cbfa8c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpriteColourSync
+  spriteRef: {fileID: 5745392581073524725}
+  mySprite: {fileID: 5526359593509142397}
+--- !u!212 &2833092073987280914 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 7752669525697470004, guid: 4e613ddf5f376f044b802f8f0f5410be, type: 3}
+  m_PrefabInstance: {fileID: 5532155237169434150}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3214162885428248704 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6943752370400464550, guid: 4e613ddf5f376f044b802f8f0f5410be, type: 3}
+  m_PrefabInstance: {fileID: 5532155237169434150}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6261432153858753603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3214162885428248704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 266525e51b746114790f430c4cbfa8c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpriteColourSync
+  spriteRef: {fileID: 7329532084136684924}
+  mySprite: {fileID: 3900420623771015983}
+--- !u!212 &3900420623771015983 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 8856110985190544649, guid: 4e613ddf5f376f044b802f8f0f5410be, type: 3}
+  m_PrefabInstance: {fileID: 5532155237169434150}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &4778479974724361860 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 1051234102009548962, guid: 4e613ddf5f376f044b802f8f0f5410be, type: 3}
+  m_PrefabInstance: {fileID: 5532155237169434150}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &5048579218206541388 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 780813699598501994, guid: 4e613ddf5f376f044b802f8f0f5410be, type: 3}
@@ -583,6 +686,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2c57eb91fbdaae498215be0836b84e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMaskAttacker
+--- !u!212 &5526359593509142397 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 33701292264272219, guid: 4e613ddf5f376f044b802f8f0f5410be, type: 3}
+  m_PrefabInstance: {fileID: 5532155237169434150}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &5745392581073524725 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 251522064232503763, guid: 4e613ddf5f376f044b802f8f0f5410be, type: 3}
+  m_PrefabInstance: {fileID: 5532155237169434150}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &6146531278034751227 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 1840551958245261533, guid: 4e613ddf5f376f044b802f8f0f5410be, type: 3}
+  m_PrefabInstance: {fileID: 5532155237169434150}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &6311898384231860252 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1972145369782257210, guid: 4e613ddf5f376f044b802f8f0f5410be, type: 3}
@@ -594,3 +712,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68db7719fc5f7f140a567b18cfea980d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCMaskReactor
+--- !u!212 &7055225802208729891 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3255851412694717701, guid: 4e613ddf5f376f044b802f8f0f5410be, type: 3}
+  m_PrefabInstance: {fileID: 5532155237169434150}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &7329532084136684924 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 2986330173626295130, guid: 4e613ddf5f376f044b802f8f0f5410be, type: 3}
+  m_PrefabInstance: {fileID: 5532155237169434150}
+  m_PrefabAsset: {fileID: 0}

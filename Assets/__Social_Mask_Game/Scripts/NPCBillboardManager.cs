@@ -86,31 +86,56 @@ public class NPCBillboardManager : MonoBehaviour
     {
         angle2Player = Vector3.SignedAngle(npcRootTransform.forward, billboardLookTransfom.forward, npcRootTransform.up);
 
-        //show the back facing sprite
-        if (angle2Player < (180 - backAngleThreshold) || angle2Player > (-180 + backAngleThreshold))
+
+
+
+        //when player is to the left
+        if(angle2Player  > 0)
         {
-            angleMode = 3;
+            //show the front facing sprite
+            if (angle2Player < sideAngleThreshold)
+            {
+                angleMode = 0;
+            }
+
+            //show the left facing sprite
+            if (angle2Player > sideAngleThreshold)
+            {
+                angleMode = 2;
+            }
+
+            //show the back facing sprite
+            if (angle2Player > (180 - backAngleThreshold))
+            {
+                angleMode = 3;
+            }
         }
 
-        //show the right facing sprite
-        if (angle2Player < sideAngleThreshold && angle2Player < (180 - backAngleThreshold))
+        //when player is to the right
+        if (angle2Player < 0)
         {
-            angleMode = 1;
+
+            //show the front facing sprite
+            if (angle2Player > sideAngleThreshold)
+            {
+                angleMode = 0;
+            }
+
+            //show the right facing sprite
+            if (angle2Player < -sideAngleThreshold)
+            {
+                angleMode = 1;
+            }
+
+            //show the back facing sprite
+            if (angle2Player < (-180 + backAngleThreshold))
+            {
+                angleMode = 3;
+            }
         }
 
-        //show the left facing sprite
-        if (angle2Player > -sideAngleThreshold && angle2Player > (-180 + backAngleThreshold))
-        {
-            angleMode = 2;
-        }
 
-        //show the front facing sprite
-        if (angle2Player < sideAngleThreshold && angle2Player > -sideAngleThreshold)
-        {
-            angleMode = 0;
-        }
-
-        if(prevAngleMode != angleMode)
+        if (prevAngleMode != angleMode)
         {
             //show the front facing sprite
             if (angleMode == 0)
